@@ -2,7 +2,7 @@
 
 > This is a switch component to toggle between dark and light themes.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./app_screen.png)
 
 ## 🔧 Built With
 
