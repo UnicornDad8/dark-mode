@@ -22,8 +22,11 @@ function App() {
             </div>
           )}
           <p>
-            Use the toggle to switch from <span className="bold">dark</span>{" "}
-            mode to <span className="bold">light</span> mode...
+            Use the toggle to switch from{" "}
+            <span className="bold">{theme === "dark" ? "dark" : "light"}</span>{" "}
+            mode to{" "}
+            <span className="bold">{theme === "dark" ? "light" : "dark"}</span>{" "}
+            mode...
           </p>
           <Switch onChange={toggleTheme} checked={theme === "dark"} />
         </div>
