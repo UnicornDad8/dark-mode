@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300&family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+:root {
+  --bg-main: #5b9af8;
+  --txt-color: #1b1b1b;
+  --bg-body: rgb(241, 247, 251);
+  --bg-secondary: #e0e9f5;
+  --bg-tertiary: #060a10;
+  --bg-toggle: #fff;
+  --icon-color: rgb(232, 133, 76);
+}
+
+.dark {
+  --bg-main: #fff;
+  --txt-color: #e0e9f5;
+  --bg-body: rgb(23, 24, 25);
+  --bg-secondary: #060a10;
+  --bg-tertiary: #f0f4fa;
+  --bg-toggle: #5b9af8;
+  --icon-color: rgb(153, 27, 237);
+}
+
+.page-conatiner {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  background: var(--bg-body);
+  color: var(--txt-color);
+}
+
+body {
+  background: var(--bg-body);
+  color: var(--txt-color);
+  font-family: "Inter", sans-serif;
+  text-align: center;
+}
+
+h1 {
+  padding-top: 30px;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: var(--txt-color);
+  margin-bottom: 30px;
+}
+
+.card {
+  background: var(--bg-secondary);
+  width: 50%;
+  margin: auto;
+  padding: 10px 30px;
+  font-size: 20px;
+  border-radius: 15px;
+  color: var(--txt-color);
+}
+
+.icon {
+  margin: 30px auto;
+  font-size: 30px;
+  color: var(--icon-color);
+}
