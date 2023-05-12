@@ -13,9 +13,13 @@ function App() {
         <h1>{theme === "dark" ? "Dark" : "Light"} Mode</h1>
         <div className="card">
           {theme === "dark" ? (
-            <BsFillMoonFill className="icon" size={30} />
+            <div className="icon-box">
+              <BsFillMoonFill className="icon" size={30} />
+            </div>
           ) : (
-            <BsFillSunFill className="icon" size={30} />
+            <div className="icon-box">
+              <BsFillSunFill className="icon" size={30} />
+            </div>
           )}
           <p>Use the toggle to switch from light mode to dark mode...</p>
           <Switch onChange={toggleTheme} checked={theme === "dark"} />

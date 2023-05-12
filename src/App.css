@@ -70,8 +70,19 @@ h1 {
   color: var(--txt-color);
 }
 
+.icon-box {
+  width: 60px;
+  height: 60px;
+  background: var(--icon-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+  border-radius: 50%;
+}
+
 .icon {
   margin: 30px auto;
   font-size: 30px;
-  color: var(--icon-color);
+  color: #fff;
 }
