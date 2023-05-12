@@ -19,6 +19,7 @@ html {
 :root {
   --bg-main: #5b9af8;
   --txt-color: #1b1b1b;
+  --txt-highlight: #000;
   --bg-body: rgb(241, 247, 251);
   --bg-secondary: #e0e9f5;
   --bg-tertiary: #060a10;
@@ -29,6 +30,7 @@ html {
 .dark {
   --bg-main: #fff;
   --txt-color: #e0e9f5;
+  --txt-highlight: #fff;
   --bg-body: rgb(23, 24, 25);
   --bg-secondary: #060a10;
   --bg-tertiary: #f0f4fa;
@@ -85,4 +87,9 @@ h1 {
   margin: 30px auto;
   font-size: 30px;
   color: #fff;
+}
+
+.bold {
+  font-weight: 900;
+  color: var(--txt-highlight);
 }

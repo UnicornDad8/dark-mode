@@ -21,7 +21,10 @@ function App() {
               <BsFillSunFill className="icon" size={30} />
             </div>
           )}
-          <p>Use the toggle to switch from light mode to dark mode...</p>
+          <p>
+            Use the toggle to switch from <span className="bold">light</span>{" "}
+            mode to <span className="bold">dark</span> mode...
+          </p>
           <Switch onChange={toggleTheme} checked={theme === "dark"} />
         </div>
       </div>
